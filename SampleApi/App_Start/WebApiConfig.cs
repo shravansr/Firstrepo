@@ -16,7 +16,7 @@ namespace SampleApi
             config.Formatters.XmlFormatter.UseXmlSerializer = true;
             config.MapHttpAttributeRoutes();
 
-            config.Routes.MapHttpRoute(
+            config.Routes.MapHttpRoute( 
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
