@@ -39,8 +39,8 @@ namespace SampleApi.Models
             [DataMember]
             public decimal Price { get; set; }
             [DataMember]
-            public string type { get; set; }
-            [DataMember]
+            //public string type { get; set; }
+           // [DataMember]
             public DateTime created_date { get; set; }
 
         }
